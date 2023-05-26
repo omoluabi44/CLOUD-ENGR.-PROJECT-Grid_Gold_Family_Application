@@ -69,9 +69,6 @@ Follow the steps below to set up the project and start collecting user data.
 
 2. Deploy the API Gateway and Lambda function in the AWS Management Console.
 
-## Conclusion
-
-By following these steps, you have successfully set up a React application to collect user data through forms, integrated it with API Gateway and Lambda function, and stored the data in a DynamoDB table.
 
 # Project Name
 
@@ -110,10 +107,6 @@ To implement the email confirmation feature in your project, follow these steps:
 ## Problem Encountered
 
 During the implementation of the email confirmation feature, the DynamoDB stream kept invoking the Lambda function repeatedly, causing the SES service to reach the sending limit. This resulted in an inability to send confirmation emails.
-
-## Conclusion
-
-By implementing the email confirmation feature using AWS Lambda, DynamoDB streams, and SES, you can provide users with a confirmation email after they fill out the form. The solution of using a separate "sent-email" table helps prevent duplicate emails and ensures efficient utilization of the SES service.
 
 # Project Name
 
@@ -212,16 +205,6 @@ By incorporating automation for data backup, the Gold Grid team can enjoy severa
 
 - Reliability: By utilizing AWS services, the backup process is reliable and robust, minimizing the risk of data loss.
 
-### Conclusion
-
-By implementing automation for data backup using AWS Lambda, S3, and EventBridge, the Gold Grid team can ensure the safety and integrity of their data while freeing up time for other projects. Regular backups will be performed automatically according to the specified schedule, providing peace of mind and efficient data management.
-
-
-
-
-### Conclusion
-
-By implementing the dashboard feature using AWS services like API Gateway, Lambda, DynamoDB, and Cognito, you can provide real-time data visualization in your application. The dashboard will display information such as users logged onto the app, the number of users, timestamps of logging onto the app, and nationality counts. This feature enhances the user experience by providing valuable insights and statistics.
 
 
 
