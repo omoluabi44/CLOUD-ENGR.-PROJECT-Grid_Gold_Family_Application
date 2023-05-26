@@ -1,0 +1,64 @@
+*{
+  margin :0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+  
+  
+}
+
+.app{
+/* margin-top: 20px; */
+display: flex; /* Added property */
+align-items: center; /* Added property */
+justify-content: center; /* Added property */
+width: 100%;
+height: 100vh;
+background-attachment: fixed;
+background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8) ), url(./459-background.png);
+
+
+
+}
+.container{
+  /* margin-top: 200px; */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+form{
+  padding: 0px 60px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 450px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding:50px 60px 40px;
+  top: 70%;
+  left:50%;
+  margin-top: -90px;
+ 
+  
+}
+
+h1{
+  color: #3c00a0;
+  text-align:center;
+  margin-top: -50px;
+}
+
+button{
+  width:100%;
+  height:50px;
+  padding:10px;
+  border:none;
+  background-color: #3c00a0;
+  color:white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size:18px;
+  cursor:pointer;
+  margin-top:15px;
+  margin-bottom:30px;
+}
