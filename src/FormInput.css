@@ -36,7 +36,7 @@
   padding:50px 60px 40px;
   top: 70%;
   left:50%;
-  margin-top: -90px;
+  margin-top: -150px;
   }
   
   h1{
@@ -75,7 +75,7 @@ input{
     background: transparent;
     border: 0;
     outline: 0;
-    padding:18px 15px;
+    padding:10px 15px;
     margin-left: 15px;
     color: #999;
     background: #eaeaea;
