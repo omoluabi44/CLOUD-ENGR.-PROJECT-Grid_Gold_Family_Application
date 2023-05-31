@@ -1,4 +1,4 @@
-# Project Name
+# GRID GOLD FAMILY APPLICATION
 
 ## Collecting User Data and Storing in DynamoDB
 
@@ -63,14 +63,6 @@ Follow the steps below to set up the project and start collecting user data.
 
 3. Test the integration by submitting the form in your React application and verifying that the user data is successfully stored in the DynamoDB table.
 
-### Step 4: Deployment
-
-1. Deploy your React application to a suitable hosting platform.
-
-2. Deploy the API Gateway and Lambda function in the AWS Management Console.
-
-
-# Project Name
 
 ## Email Confirmation Feature
 
@@ -88,7 +80,7 @@ To address the problem encountered during the implementation of the email confir
    - If the partition key does not exist or its value is not set to true, send the confirmation email using the AWS SES service.
    - After successfully sending the email, add a new item to the "sent-email" table with the partition key set to true.
 
-## Documentation
+
 
 To implement the email confirmation feature in your project, follow these steps:
 
@@ -108,7 +100,7 @@ To implement the email confirmation feature in your project, follow these steps:
 
 During the implementation of the email confirmation feature, the DynamoDB stream kept invoking the Lambda function repeatedly, causing the SES service to reach the sending limit. This resulted in an inability to send confirmation emails.
 
-# Project Name
+
 
 ## Dashboard Feature
 
@@ -193,13 +185,7 @@ To automate the data backup process, the following steps were followed:
 
 5. Monitor the automation process to ensure that backups are executed as scheduled and that data is being properly stored in the S3 bucket. Set up appropriate alerts and notifications for any failures or issues.
 
-### Benefits of Automation
 
-By incorporating automation for data backup, the Gold Grid team can enjoy several benefits:
-
-- Time Efficiency: The automated backup process eliminates the need for manual data backup operations, freeing up valuable time for the team to work on other projects.
-
-- Data Safety: Regular backups ensure that the data stored in the DynamoDB table is protected in case of any unforeseen events or accidents.
 
 - Scalability: The automation solution can be easily scaled to handle larger datasets and accommodate future growth of the Gold Grid application.
 
